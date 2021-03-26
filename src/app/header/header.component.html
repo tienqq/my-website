@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <!--logo-->
+      <div class="navbar-brand" href="#">
+          Logo
+      </div>
+      <!--header menu items-->
+      <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav mr-auto">
+              <!--Home redirect-->
+              <li class="nav-item active">
+                  <a class="nav-link" href="#">
+                      Home
+                  </a>
+              </li>
+              <!--Resume redirect-->
+              <li class="nav-item">
+                 <a class="nav-link" href="#">
+                     Resum&eacute;
+                 </a>
+              </li>
+              <!--GitHub and LeetCode redirect-->
+              <li class="nav-item" ngbDropdown>
+                <a class="nav-link" tabindex="0" ngbDropdownToggle id="navbarDropdown1" role="button">
+                  Links
+                </a>
+                <div ngbDropdownMenu aria-labelledby="navbarDropdown1" class="dropdown-menu">
+                  <a ngbDropdownItem href="#" (click)="goToLink('https://github.com/tienqq')">GitHub</a>
+                  <a ngbDropdownItem href="#" (click)="$event.preventDefault()">LeetCode</a>
+                  <a ngbDropdownItem href="#" (click)="$event.preventDefault()">LinkedIn</a>
+                </div>
+              </li>
+              <!--Contact info redirect-->
+              <li class="nav-item">
+                  <a class="nav-link" href="#">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+    </div>
+  </nav>

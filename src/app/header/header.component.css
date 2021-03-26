@@ -1,0 +1,21 @@
+.navbar{
+    font-family:'Times New Roman', Times, serif;
+    background-color: #ccc;
+    color: black;
+    font-size: 130%;
+    position: relative;
+    align-items: center;
+    padding-top: .5rem 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    display: flex;
+}
+.nav-item{
+    text-indent: 0px;
+}
+*{
+
+    margin: 0;
+    padding: 0;
+}
