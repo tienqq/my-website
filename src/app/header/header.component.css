@@ -8,12 +8,16 @@
     padding-top: .5rem 1rem;
     padding-right: 1rem;
     padding-bottom: 0.5rem;
-    padding-left: 1rem;
+    padding-left: 0;
     display: flex;
 }
 .nav-item{
-    text-indent: 0px;
+    text-indent: 10px;
 }
+.nav-link {
+    outline: none !important;
+    box-shadow: none;
+ }
 *{
 
     margin: 0;
