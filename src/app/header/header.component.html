@@ -1,5 +1,12 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
+<<<<<<< HEAD
+=======
+        <!--logo-->
+        <!-- <div class="navbar-brand" href="#">
+        logo image, if i decide to put one
+        </div> -->
+>>>>>>> parent of b5ba26c (Revert "Added a footer and home component")
       <!--header menu items-->
       <div class="collapse navbar-collapse" id="navbarContent">
           <ul class="navbar-nav mr-auto">
@@ -22,8 +29,8 @@
                 </a>
                 <div ngbDropdownMenu aria-labelledby="navbarDropdown1" class="dropdown-menu">
                   <a ngbDropdownItem href="#" (click)="goToLink('https://github.com/tienqq')">GitHub</a>
-                  <a ngbDropdownItem href="#" (click)="$event.preventDefault()">LeetCode</a>
-                  <a ngbDropdownItem href="#" (click)="$event.preventDefault()">LinkedIn</a>
+                  <a ngbDropdownItem href="#" (click)="goToLink('https://leetcode.com/tienqq')">LeetCode</a>
+                  <a ngbDropdownItem href="#" (click)="goToLink('https://www.linkedin.com/in/tien-quang-831129164/')">LinkedIn</a>
                 </div>
               </li>
               <!--Contact info redirect-->
@@ -35,7 +42,7 @@
               <!--Contact info redirect-->
               <li class="nav-item">
                   <a class="nav-link" href="#">
-                      Contact
+                      Contact Me
                   </a>
               </li>
           </ul>

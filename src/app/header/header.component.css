@@ -8,16 +8,23 @@
     padding-top: .5rem 1rem;
     padding-right: 1rem;
     padding-bottom: 0.5rem;
-    padding-left: 1rem;
+    padding-left: 0;
     display: flex;
 }
 .nav-item{
-    text-indent: 0px;
+    text-indent: 10px;
 }
+<<<<<<< HEAD
 .navbar-nav > li{
     padding-left: 0px;
     padding-right: 50px;
 }
+=======
+.nav-link {
+    outline: none !important;
+    box-shadow: none;
+ }
+>>>>>>> parent of b5ba26c (Revert "Added a footer and home component")
 *{
 
     margin: 0;
