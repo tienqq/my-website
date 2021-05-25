@@ -14,19 +14,7 @@
 .nav-item{
     text-indent: 10px;
 }
-<<<<<<< HEAD
 .navbar-nav > li{
     padding-left: 0px;
     padding-right: 50px;
-}
-=======
-.nav-link {
-    outline: none !important;
-    box-shadow: none;
- }
->>>>>>> parent of b5ba26c (Revert "Added a footer and home component")
-*{
-
-    margin: 0;
-    padding: 0;
 }
